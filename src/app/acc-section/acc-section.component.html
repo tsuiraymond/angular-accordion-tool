@@ -1,0 +1,8 @@
+<div class="section">
+  <div class="title">
+    <a href="javascript:void()" (click)="toggle.emit()">{{title}}</a>
+  </div>
+  <div class="body" *ngIf="open">
+    <ng-content></ng-content>
+  </div>
+<div>

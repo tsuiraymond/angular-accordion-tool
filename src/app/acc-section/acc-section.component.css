@@ -1,0 +1,20 @@
+.section {
+    background-color: white;
+    color: #222;
+  }
+  
+  .section .title {
+    background-color: rgba(0,0,0,.03);
+    width: 100%;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+  }
+  
+  .section .body {
+    padding: 20px;
+  }
+  
+  .section .body.hidden {
+    display: none;
+  }
